@@ -3,44 +3,94 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>UFO</title>
+        <link rel="stylesheet" href="./css/main.css" />
     </head>
     <body>
-        <div
+        <!---<div
             style="
-                background-color: pink;
-                width: 30%;
-                display: inline-block;
-                float: left;
-                margin-left: 10%;
+                width: 100%;
+                background-color: rgb(255, 255, 0);
+                height: 100px;
             "
         >
+            <div style="width: 50%; background-color: green; height: 80%">
+                <div style="width: 50%; background-color: red; height: 80%">
+                    <div
+                        style="width: 50%; background-color: blue; height: 80%"
+                    ></div>
+                </div>
+            </div>
+        </div>
+        --->
+        <div>
             <h1>404</h1>
             <p>Page not found</p>
             <a href="#">Go to home</a>
+
+            <!-- <div
+                style="
+                    background-color: pink;
+                    box-sizing: border-box;
+                    height: 200px;
+                    width: 200px;
+                    padding: 0px;
+                    border: 10px solid blue;
+                "
+            >
+                DEMO
+            </div>
+            -->
         </div>
         <img
-            style="
-                background-color: aqua;
-                width: 40%;
-                display: inline-block;
-                float: left;
-                margin-left: 10%;
-            "
-            src="#"
-            alt="Skraidanti lekste"
+            src="./img/ufo.webp"
+            alt="Skraidanti lekste kuri vagia zmoniu daiktus"
         />
     </body>
 </html>
 
 <!--
 
+Matavimo vienetai:
+% - reliatyvus matavimo vienetas, kuris dazniausiai matuojamas tevinio elemento plocio atzvilgiu.
+% - height procentai neveikia iki kol kazkuris tevinis elementas neturi absoliuciais matavimo vienetais isreiksto aukscio.
+px - absoliutus, maziausias ir nedalomas matavimo vienetas (elgsena panasi i milimetrus)
+
+Visos tekstines stiliaus saybes gali buti paveldetos:
+- text-align: center;
+- font-size: 30px; (pikseliai, maziausias ir nedalomas matavimo vienetas)
+- font-weight: bold;
+- font-family: Arial;
+- color: red;
+- text-transform: uppercase;
+- text-decoration: none;
+
 DISPLAY: block;     didzioji dalis elementu deliojasi vertikaliai
-display: inline;    elgiasi kaip tekstas ir nereaguoja i fiziniu dydziu savybes (width, height)
+display: inline;    elgiasi kaip tekstas ir nereaguoja i fiziniu dydziu savybes (width, height, margin vertikaliai)
 display: inline-block;    mix
 
+float: left;
+float: right;
+
+width: 100%;
+height: 100%;
+
+padding: 40px; vidinis atstumas tarp jo elemento sienos ir jo vidinio turinio
+padding-top: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+padding-left: 5%;
+
+margin: 40px; atsistumimas nuo aplinkiniu elementu
 margin-top: 5%;
 margin-right: 5%;
 margin-bottom: 5%;
 margin-left: 5%;
+
+background-color: red;
+
+Kompaktiskos nuotraukos iskirpimas:
+- magic wand (pazymime nereikalinga fona)
+- ctrl + i
+- ctrl + shift + x
 -->
