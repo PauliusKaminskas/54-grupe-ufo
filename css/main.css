@@ -31,6 +31,12 @@ a {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
+    line-height: 1.2em;
+    /* border-radius: 0%; /* [0..50] */
+    /* border-radius: 20px; /* [0..25] */
+    /* border-radius: 1em; /* = 1 * 20px */
+    border-radius: 25px; /*pabandyti perrasyti viska em vienetais */
+    cursor: cell;
 }
 img {
     width: 32%;

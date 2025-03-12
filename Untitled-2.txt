@@ -1,0 +1,2 @@
+./ esama vieta (failo su kuriuo dirbama. pls kuris atidarytas)
+/ root direktorija (absoliutus kelias)
