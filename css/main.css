@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Silkscreen;
+    src: url(../fonts/Silkscreen/Silkscreen-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     box-sizing: border-box;
 }
@@ -6,8 +12,7 @@
     float: left;
     margin-left: 20%;
     margin-top: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    font-family: Silkscreen;
 }
 .main-text {
     font-size: 120px;
